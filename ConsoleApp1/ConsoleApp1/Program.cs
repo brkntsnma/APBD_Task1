@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Enter numbers separated by space:");
+﻿using System;
+using System.Linq;
+
+Console.WriteLine("Enter numbers separated by space:");
 
 string input = Console.ReadLine();
 
@@ -13,10 +16,9 @@ string[] parts = input.Split(' ');
 int[] numbers = parts.Select(int.Parse).ToArray();
 
 Console.WriteLine("You entered " + numbers.Length + " numbers");
-
 Console.WriteLine("Input processed successfully");
-
 Console.WriteLine("Average: " + CalculateAverage(numbers));
+Console.WriteLine("Max: " + CalculateMax(numbers));
 
 static double CalculateAverage(int[] values)
 {
