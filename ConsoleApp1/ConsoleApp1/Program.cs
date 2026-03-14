@@ -15,3 +15,10 @@ int[] numbers = parts.Select(int.Parse).ToArray();
 Console.WriteLine("You entered " + numbers.Length + " numbers");
 
 Console.WriteLine("Input processed successfully");
+
+Console.WriteLine("Average: " + CalculateAverage(numbers));
+
+static double CalculateAverage(int[] values)
+{
+    return values.Average();
+}
