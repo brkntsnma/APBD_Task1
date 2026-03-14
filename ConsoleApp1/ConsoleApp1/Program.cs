@@ -16,7 +16,7 @@ string[] parts = input.Split(' ');
 int[] numbers = parts.Select(int.Parse).ToArray();
 
 Console.WriteLine("You entered " + numbers.Length + " numbers");
-Console.WriteLine("Input processed successfully on main branch");
+Console.WriteLine("Input processed successfully on main and feature-conflict branches");
 Console.WriteLine("Average: " + CalculateAverage(numbers));
 Console.WriteLine("Max: " + CalculateMax(numbers));
 Console.WriteLine("Min: " + CalculateMin(numbers));
