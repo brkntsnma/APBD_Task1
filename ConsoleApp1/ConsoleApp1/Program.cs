@@ -29,3 +29,7 @@ static int CalculateMax(int[] values)
 {
     return values.Max();
 }
+static int CalculateMin(int[] values)
+{
+    return values.Min();
+}
