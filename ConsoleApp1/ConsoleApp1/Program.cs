@@ -22,3 +22,7 @@ static double CalculateAverage(int[] values)
 {
     return values.Average();
 }
+static int CalculateMax(int[] values)
+{
+    return values.Max();
+}
