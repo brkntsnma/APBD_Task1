@@ -19,6 +19,7 @@ Console.WriteLine("You entered " + numbers.Length + " numbers");
 Console.WriteLine("Input processed successfully");
 Console.WriteLine("Average: " + CalculateAverage(numbers));
 Console.WriteLine("Max: " + CalculateMax(numbers));
+Console.WriteLine("Min: " + CalculateMin(numbers));
 
 static double CalculateAverage(int[] values)
 {
